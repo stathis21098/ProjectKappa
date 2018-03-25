@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1522021350 source:d:\moose\coding\cpp\projectkappa\main.cpp
+	<iostream>
+
+1522023774 source:d:\moose\coding\cpp\projectkappa\src\monster.cpp
+	"Monster.h"
+
+1522023871 d:\moose\coding\cpp\projectkappa\include\monster.h
+	<iostream>
+
