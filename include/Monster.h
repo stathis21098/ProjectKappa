@@ -5,7 +5,7 @@
 class Monster {
   private:
     // Info
-    std::string monster_name;
+    std::string name;
     int level;
     std::string category;
     std::string rarity;
@@ -20,7 +20,7 @@ class Monster {
   public:
     // Getters
     // Info
-    std::string get_monster_name();
+    std::string get_name();
     int get_level();
     std::string get_category();
     std::string get_rarity();
@@ -35,7 +35,7 @@ class Monster {
 
     // Setters
     // Info
-    void set_monster_name(std::string);
+    void set_name(std::string);
     void set_level(int);
     void set_category(std::string);
     void set_rarity(std::string);
@@ -47,4 +47,8 @@ class Monster {
     void set_critical_chance(int);
     void set_magic_damage(int);
     void set_charges(int);
+
+    // Displays
+    void display_info();
+    void display_stats();
 };

@@ -2,8 +2,8 @@
 
 // Getters
 // Info
-std::string Monster::get_monster_name() {
-  return this->monster_name;
+std::string Monster::get_name() {
+  return this->name;
 }
 
 int Monster::get_level() {
@@ -48,8 +48,8 @@ int Monster::get_charges() {
 
 // Setters
 // Info
-void Monster::set_monster_name(std::string monster_name) {
-  this->monster_name = monster_name;
+void Monster::set_name(std::string name) {
+  this->name = name;
 }
 
 void Monster::set_level(int level) {
@@ -90,4 +90,16 @@ void Monster::set_magic_damage(int magic_damage) {
 
 void Monster::set_charges(int charges) {
   this->charges = charges;
+}
+
+// Displays
+void Monster::display_info() {
+  std::cout << "Name: " << this->name << std::endl;
+  std::cout << "Level: " << this->level << std::endl;
+  std::cout << "Category: " << this->category << std::endl;
+  std::cout << "Rarity: " << this->rarity << std::endl;
+}
+
+void Monster::display_stats() {
+
 }

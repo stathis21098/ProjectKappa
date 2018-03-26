@@ -2,7 +2,16 @@
 #include "include/monster.h"
 
 int main() {
+  Monster* monster = new Monster();
 
+  monster->set_name("Geox");
+  monster->set_level(1);
+  monster->set_category("Attacker");
+  monster->set_rarity("Common");
 
-    return 0;
+  monster->display_info();
+
+  delete monster;
+
+  return 0;
 }

@@ -1,6 +1,6 @@
 #ignoring code::blocks files
 bin/
 obj/
-ProjectKappa.cbp
-ProjectKappa.depend
-ProjectKappa.layout
+./ProjectKappa.cbp
+./ProjectKappa.depend
+./ProjectKappa.layout

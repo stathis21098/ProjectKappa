@@ -3,9 +3,9 @@
 	<iostream>
 	"include/monster.h"
 
-1522023774 source:d:\moose\coding\cpp\projectkappa\src\monster.cpp
-	"Monster.h"
+1522105391 source:d:\moose\coding\cpp\projectkappa\src\monster.cpp
+	"../include/monster.h"
 
-1522104282 d:\moose\coding\cpp\projectkappa\include\monster.h
+1522105308 d:\moose\coding\cpp\projectkappa\include\monster.h
 	<iostream>
 
